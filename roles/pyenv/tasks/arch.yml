@@ -1,0 +1,9 @@
+- name: Install pyenv prerequisites
+  pacman:
+    name:
+      - base-devel
+      - openssl
+      - zlib
+      - xz
+    state: latest
+  become: yes

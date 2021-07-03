@@ -1,0 +1,6 @@
+- name: Install NVIM for Arch
+  pacman:
+    name:
+      - neovim
+    state: latest
+  become: yes

@@ -1,0 +1,5 @@
+- name: Install git with pacman
+  pacman:
+    name: git
+    state: latest
+  become: yes
